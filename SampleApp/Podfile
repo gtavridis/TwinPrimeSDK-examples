@@ -3,4 +3,4 @@
 #  All rights reserved.
 #
 source 'https://github.com/twinprime/cocoapods.git'
-pod "TwinPrimeSDK", '1.22.0.0-SNAPSHOT'
+pod "TwinPrimeSDK"
