@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode7.1
 script:
 - which xcodebuild
+- which xcodeproj
 - ./build.sh
 env:
   matrix:
