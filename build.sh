@@ -26,6 +26,6 @@ for APP in SampleApp SampleSwiftApp AFSample; do
 	(
 		cd $APP
 		pod install
-		xcodebuild $OPTS -workspace ${APP}.xcworkspace -scheme $APP
+		$TOOL $OPTS -workspace ${APP}.xcworkspace -scheme $APP
 	)
 done
