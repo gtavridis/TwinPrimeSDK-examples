@@ -13,7 +13,7 @@ printenv | grep TRAVIS
 
 OPTS=""
 if [ "x${TRAVIS}" != "x" ]; then
-	OPTS="CODE_SIGNING_REQUIRED=NO"
+	OPTS='CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""'
 fi
 
 for APP in SampleApp SampleSwiftApp AFSample; do
