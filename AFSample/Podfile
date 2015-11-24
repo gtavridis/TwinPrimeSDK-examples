@@ -1,0 +1,8 @@
+#
+#  Copyright (c) 2013-2015 Twin Prime Inc. <http://www.twinprime.com/>
+#  All rights reserved.
+#
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/twinprime/cocoapods.git'
+pod "TwinPrimeSDK"
+pod "AFNetworking", ">=2.3.1"
