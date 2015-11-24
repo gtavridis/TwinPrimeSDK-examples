@@ -5,7 +5,7 @@
 
 #import "TPTViewController.h"
 #import "../TwinPrimeSDK/TwinPrimeSDK.h"
-#import "../AFNetworking-2.3.1/AFNetworking/AFNetworking.h"
+#import "AFNetworking/AFNetworking.h"
 
 @implementation TPTViewController
 
