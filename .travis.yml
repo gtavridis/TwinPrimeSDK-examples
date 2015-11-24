@@ -1,6 +1,8 @@
 language: objective-c
 osx_image: xcode7.1
-script: ./build.sh
+script:
+- which xcodebuild
+- ./build.sh
 env:
   matrix:
     - BUILDTOOL=xcodebuild
