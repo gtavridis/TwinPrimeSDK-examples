@@ -2,6 +2,7 @@
 #  Copyright (c) 2013-2015 Twin Prime Inc. <http://www.twinprime.com/>
 #  All rights reserved.
 #
+platform :ios, '7.0'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/twinprime/cocoapods.git'
 pod "TwinPrimeSDK"
