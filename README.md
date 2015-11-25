@@ -2,38 +2,27 @@
 
 [![Build Status](https://travis-ci.org/twinprime-ci/TwinPrimeSDK-examples.svg?branch=master)](https://travis-ci.org/twinprime-ci/TwinPrimeSDK-examples)
 
-This repository contains examples with Twin Prime SDK iOS programs.
+This repository contains 3 sample apps that showcase how to integrate the Twin Prime SDK in iOS.
 
-In this directory are the 3 sample iOS applications:
-
-- `SampleApp/`
-   - Objective-C example of `NSURLRequest` usage
-- `AFSample/`
-   - Objective-C example of `AFNetworking` usage
-- `SwiftSampleApp/`
-   - Swift example of `NSURLConnection` and `NSURLSession`
+- `SampleApp/`: Objective-C sample app using `NSURLRequest`
+- `AFSample/` : Objective-C sample app using `AFNetworking`
+- `SwiftSampleApp/`: Swift sample app using `NSURLConnection` and `NSURLSession`
 
 # Dependencies
 
-These examples depend on CocoaPods as a dependency manager. Please install
-CocoaPods according to their documentation:
-
-	https://guides.cocoapods.org/using/getting-started.html
+In order to use these sample apps, you need CocoaPods. To install CocoaPods, go [here] (https://guides.cocoapods.org/using/getting-started.html).
 
 You must have XCode installed together with XCode Command Line extensions.
 
-# How to use
+# How to use the Sample Apps
 
 The directory contains the build script `build.sh`.  To build, you run:
 
 	./build.sh
 
-It will enter each of three directories, synchronize dependecies with Twin
-Prime SDK repository, and create XCode workspaces. Created projects will be
-built and recompiled.
+The script will synchronize dependecies between the sample apps and the Twin Prime SDK repository and create XCode workspaces. All created projects will be built and recompiled.
 
-Afterwards one can open `.xcworkspace` files and start editing them in
-XCode.
+Once complete, you can open `.xcworkspace` files and start editing them in XCode.
 
 # Copyright 
 
